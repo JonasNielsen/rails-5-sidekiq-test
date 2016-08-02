@@ -29,7 +29,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'rack-protection', github: 'sinatra/rack-protection'
+gem 'sinatra', github: 'sinatra/sinatra'
 gem 'sidekiq', '~> 4.1.4'
 
 group :development, :test do
